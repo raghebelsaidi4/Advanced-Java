@@ -1,0 +1,21 @@
+.home-content-wrapper {
+    background-image: url('../image/empty-wooden-board-space-platform-with-natural-bokeh-blurred-photo.jpg');
+    background-size: cover;
+    height: 100%;
+}
+.overlay-box{
+    padding: 200px 0;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.welcome-text{
+    color: #fff;
+    font-size: 75px;
+    font-family: raleway-bold;
+    line-height: 90px;
+}

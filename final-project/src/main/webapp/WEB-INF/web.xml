@@ -1,0 +1,53 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+         https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+  <display-name>Car Rental Web Application</display-name>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <jsp-file>/WEB-INF/pages/common/login.jsp</jsp-file>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+  <!-- JSTL Support -->
+  <jsp-config>
+    <jsp-property-group>
+      <url-pattern>*.jsp</url-pattern>
+      <el-ignored>false</el-ignored>
+      <scripting-invalid>false</scripting-invalid>
+    </jsp-property-group>
+  </jsp-config>
+
+  <!-- Error Pages -->
+  <error-page>
+    <error-code>404</error-code>
+    <location>/WEB-INF/pages/common/errorPage.jsp</location>
+  </error-page>
+
+  <error-page>
+    <exception-type>com.ragheb.service.api.ServiceException</exception-type>
+    <location>/WEB-INF/pages/common/errorPage.jsp</location>
+  </error-page>
+
+  <error-page>
+    <exception-type>java.lang.RuntimeException</exception-type>
+    <location>/WEB-INF/pages/common/serverError.jsp</location>
+  </error-page>
+
+  <error-page>
+    <error-code>500</error-code>
+    <location>/WEB-INF/pages/common/serverError.jsp</location>
+  </error-page>
+
+</web-app>
