@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mvc-project" />
+        <module name="servlet_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="final-project" target="1.8" />
+      <module name="servelt_demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

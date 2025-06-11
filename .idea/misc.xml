@@ -6,11 +6,15 @@
       <list>
         <option value="$PROJECT_DIR$/mvc-project/pom.xml" />
         <option value="$PROJECT_DIR$/final-project/pom.xml" />
+        <option value="$PROJECT_DIR$/servelt_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/untitled/pom.xml" />
+        <option value="$PROJECT_DIR$/servlet_demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/final-project/pom.xml" />
+        <option value="$PROJECT_DIR$/servelt_demo/pom.xml" />
       </set>
     </option>
   </component>
