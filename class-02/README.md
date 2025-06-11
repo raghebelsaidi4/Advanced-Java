@@ -1,4 +1,3 @@
-
 # Class Methods
 
 A **class method** is a method that is defined as a `static` member of a class. This means it belongs to the class rather than any particular instance of the class, and it can be called without creating an object of the class.

@@ -54,6 +54,9 @@ SQL is a language used by applications to interact with databases. It allows us 
 A **JDBC driver** is a software component that enables a Java application to connect to a database. JDBC drivers are developed by various vendors: first-party (e.g., Sun Microsystems), second-party (e.g., Oracle), and third-party vendors.
 
 ---
+## Specification
+A **Specification** is a set of rules & guidelines that are used to develop applications & environments
+---
 
 ## Types of JDBC Drivers
 

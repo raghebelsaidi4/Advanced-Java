@@ -105,5 +105,4 @@ jdbc:<subprotocol>:<subname>
 - **Use Type 4**:
   - Single-database applications.
   - Optimal performance and simplicity.
-
 ---
